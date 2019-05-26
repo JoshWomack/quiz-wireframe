@@ -1,57 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>TMNT Quiz</title>
-  </head>
-  <body>
-    <header role="banner">
-      <h1>Teenage Mutant Ninja Turtle Quiz</h1>
-    </header>
-    <main role="main">
-      <section role="region">
-        <p>
-          This is a quiz that will test your knowledge of the Teenage Mutant
-          Ninja Turtles.
-        </p>
-        <button>Start Quiz</button>
-      </section>
-      <section role="region">
-        <div>
-          <p>Question 0 of 5</p>
-          <p>Current Score: 0</p>
-        </div>
-        <div>
-          <form>
-            <P>What ingredient do the turtles not like on their pizza?</P>
-            <input type="radio" name="answers" value="Pepperoni" />
-            <label for="answers">Pepperoni</label>
-            <input type="radio" name="answers" value="Mushrooms" />
-            <label for="answers">Mushrooms</label>
-            <input type="radio" name="answers" value="Anchovies" />
-            <label for="answers">Anchovies</label>
-            <input type="radio" name="answers" value="Sausage" />
-            <label for="answers">Sausage</label>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>TMNT Quiz</title>
+</head>
+
+<body>
+  <header role="banner">
+    <h1>Teenage Mutant Ninja Turtle Quiz</h1>
+  </header>
+  <main role="main">
+    <section role="region">
+      <p>
+        This is a quiz that will test your knowledge of the Teenage Mutant
+        Ninja Turtles.
+      </p>
+      <button>Start Quiz</button>
+    </section>
+    <section role="region">
+      <div>
+        <p>Question 0 of 5</p>
+        <p>Current Score: 0</p>
+      </div>
+      <div>
+        <form>
+          <fieldset>
+            <legend>What ingredient do the turtles not like on their pizza?</legend>
+            <input type="radio" name="answers" value="Pepperoni" id="answer1-1" />
+            <label for="answer1-1">Pepperoni</label>
+            <input type="radio" name="answers" value="Mushrooms" id="answer2-1" />
+            <label for="answer2-1">Mushrooms</label>
+            <input type="radio" name="answers" value="Anchovies" id="answer3-1" />
+            <label for="answer3-1">Anchovies</label>
+            <input type="radio" name="answers" value="Sausage" id="answer4-1" />
+            <label for="answer4-1">Sausage</label>
             <button type="submit">
               Submit Answer
             </button>
-          </form>
-        </div>
-      </section>
-      <section role="region">
-        <p>That's correct!</p>
-        <button>Next Question</button>
-      </section>
-      <section role="region">
-        <p>That's incorrect!</p>
-        <button>Next Question</button>
-      </section>
-      <section>
-        <p>You got 0 out of 5 correct</p>
-        <button>Play Again</button>
-      </section>
-    </main>
-  </body>
+          </fieldset>
+        </form>
+        <form>
+          <fieldset>
+            <legend>What substance transformed the turtles into crime fighting
+              ninjas?
+            </legend>
+            <input type="radio" name="answers" value="Anabolic steroids" id="answer1-2" />
+            <label for="answer1-2">Pepperoni</label>
+            <input type="radio" name="answers" value="Pizza" id="answer2-2" />
+            <label for="answer2-2">Mushrooms</label>
+            <input type="radio" name="answers" value="The ooze" id="answer3-2" />
+            <label for="answer3-2">Anchovies</label>
+            <input type="radio" name="answers" value="Pepsi Clear" id="answer4-2" />
+            <label for="answer4-2">Sausage</label>
+            <button type="submit">
+              Submit Answer
+            </button>
+          </fieldset>
+        </form>
+        <form>
+          <fieldset>
+            <legend>
+              What are the names of Shredder's henchman who were once human
+              gang members?
+            </legend>
+            <input type="radio" name="answers" value="Bebop and Rocksteady" id="answer1-3" />
+            <label for="answer1-3">Pepperoni</label>
+            <input type="radio" name="answers" value="Bill and Ted" id="answer2-3" />
+            <label for="answer2-3">Mushrooms</label>
+            <input type="radio" name="answers" value="Casey Jones and Keno" id="answer3-3" />
+            <label for="answer3-3">Anchovies</label>
+            <input type="radio" name="answers" value="Wild Bill and Steady Eddie" id="answer4-3" />
+            <label for="answer4-3">Sausage</label>
+            <button type="submit">
+              Submit Answer
+            </button>
+          </fieldset>
+        </form>
+        <form>
+          <fieldset>
+            <legend>
+              What year was the first Ninja Turtles video game released?
+            </legend>
+            <input type="radio" name="answers" value="1982" id="answer1-4" />
+            <label for="answer1-4">Pepperoni</label>
+            <input type="radio" name="answers" value="1984" id="answer2-4" />
+            <label for="answer2-4">Mushrooms</label>
+            <input type="radio" name="answers" value="1989" id="answer3-4" />
+            <label for="answer3-4">Anchovies</label>
+            <input type="radio" name="answers" value="1991" id="answer4-4" />
+            <label for="answer4-4">Sausage</label>
+            <button type="submit">
+              Submit Answer
+            </button>
+          </fieldset>
+        </form>
+        <form>
+          <fieldset>
+            <legend>What is the name of Shredder's bodiless ally?</legend>
+            <input type="radio" name="answers" value="Splinter" id="answer1-5" />
+            <label for="answer1-5">Pepperoni</label>
+            <input type="radio" name="answers" value="The Brain" id="answer2-5" />
+            <label for="answer2-5">Mushrooms</label>
+            <input type="radio" name="answers" value="Tommy" id="answer3-5" />
+            <label for="answer3-5">Anchovies</label>
+            <input type="radio" name="answers" value="Krang" id="answer4-5" />
+            <label for="answer4-5">Sausage</label>
+            <button type="submit">
+              Submit Answer
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <section role="region">
+      <p>That's correct!</p>
+      <button>Next Question</button>
+    </section>
+    <section role="region">
+      <p>That's incorrect!</p>
+      <button>Next Question</button>
+    </section>
+    <section>
+      <p>You got 0 out of 5 correct</p>
+      <button>Play Again</button>
+    </section>
+  </main>
+</body>
+
 </html>
